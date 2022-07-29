@@ -1,0 +1,29 @@
+*{
+    padding:0px;
+    margin:0px;
+}
+#wrapper{
+    width:1000px;
+    margin:10px auto;
+    padding:20px;
+    background-color: pink;
+}
+.chat-wrapper{
+    width:40%;
+    margin:10px auto;
+    background:purple;
+}
+#chat{
+    min-height: 500px;
+    border:1px solid #b3b3b3;
+    padding:10px;
+}
+.textarea{
+    width:96%;
+    border:1px solid #b3b3b3;
+    outline: none;
+    padding:10px;
+    margin-top: 10px;
+}
+
+
