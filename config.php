@@ -8,7 +8,7 @@ try{
     $db= new PDO("mysql:dbhost=$dbhost;dbname=$dbname","$dbuser", "$dbpass");
 }
 catch( PDOException $e){
-     echo $e->getMessage();
+    echo $e->getMessage();
     
 }
 

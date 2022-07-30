@@ -3,13 +3,15 @@
     margin:0px;
 }
 #wrapper{
-    width:1000px;
+    width:82%;
+    height:800px;
     margin:10px auto;
     padding:20px;
     background-color: pink;
 }
 .chat-wrapper{
-    width:40%;
+    width:80%;
+  
     margin:10px auto;
     background:purple;
 }
