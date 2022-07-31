@@ -37,7 +37,8 @@
        $('form').submit(function(){
 
             var message =  $('.textarea').val();
-            $.post('handlers/messages.php?action=sendMessage&message='+message,function(response){
+            $.post('handlers/messages.php?action=sendMessage&message='+
+              message,function(response){
                   alert(response);
             });
       
